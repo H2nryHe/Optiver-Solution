@@ -1,0 +1,38 @@
+# ===== macOS Finder（系统自动生成的隐藏文件，不要上传）=====
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+
+# ===== 编辑器/IDE =====
+.vscode/
+.idea/
+
+# ===== Python / Jupyter =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.env
+venv/
+.venv/
+
+# ===== R / Matlab=====
+.Rhistory
+.RData
+.Rproj.user/
+*.asv
+*.mex*
+
+# ===== 日志 =====
+*.log
+
+# ===== 数据目录（默认不上传，保留说明/占位）=====
+input/**
+!input/.gitkeep
+!input/README.md
